@@ -1,0 +1,83 @@
+<testsuite name="com.axon.sessionvalidatorv3.scenarios.SessionCheckSimulation" tests="27" errors="0" failures="1" time="0">
+<testcase name="validateExpiredTokenV3: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateExpiredTokenV3: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="CreateSession: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>CreateSession: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="CreateGeoSession: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>CreateGeoSession: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="Create API Client Access Token: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>Create API Client Access Token: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="requestWithOutToken: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>requestWithOutToken: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="new_login: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>new_login: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="CreateIPv6RestrictedSession: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>CreateIPv6RestrictedSession: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="CreateIPRestrictedSession: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>CreateIPRestrictedSession: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateExpiredTokenV2: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateExpiredTokenV2: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenAllowGeo: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenAllowGeo: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenMismatchCert: percentage of successful events is 100.0" status="false" time="0">
+  <failure type="validateTokenMismatchCert">Actual value: 0.0</failure>
+</testcase>
+<testcase name="validateTokenAllowMTLS: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenAllowMTLS: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenNotAllowIPRestriction: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenNotAllowIPRestriction: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenNotAllowGeo: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenNotAllowGeo: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenNotIPAllow: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenNotIPAllow: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenAllowIPv4: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenAllowIPv4: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenAllowIPv6: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenAllowIPv6: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenAllowIPV6Restriction: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenAllowIPV6Restriction: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenNotAllowIPV6Restriction: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenNotAllowIPV6Restriction: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="get_oauth_authorize: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>get_oauth_authorize: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenAllowIPRestriction: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenAllowIPRestriction: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenNoCert: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenNoCert: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="get_oauth_token: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>get_oauth_token: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenV3: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenV3: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenV2QuotationMark: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenV2QuotationMark: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validateTokenV2: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validateTokenV2: percentage of successful events is 100.0</system-out>
+</testcase>
+<testcase name="validate request without forward header: percentage of successful events is 100.0" status="true" time="0">
+  <system-out>validate request without forward header: percentage of successful events is 100.0</system-out>
+</testcase>
+</testsuite>
