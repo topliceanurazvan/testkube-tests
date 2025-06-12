@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="10" errors="0" failures="0" skipped="0" time="3.516" timestamp="2025-06-12T05:40:03.654413">
+<testsuite name="Gocd-Api" tests="10" errors="0" failures="0" skipped="0" time="3.481" timestamp="2025-06-12T05:40:03.687950">
+<testcase classname="Tests.Gocd-Api" name="Get Version With No Authentication" time="0.166">
+</testcase>
+<testcase classname="Tests.Gocd-Api" name="Get User Information With Basic Authentication" time="0.514">
+</testcase>
+<testcase classname="Tests.Gocd-Api" name="Create A Token" time="0.253">
+</testcase>
+<testcase classname="Tests.Gocd-Api" name="Get Token With Basic Authentication" time="0.207">
+</testcase>
+<testcase classname="Tests.Gocd-Api" name="Get Bearer Authentication" time="0.177">
+</testcase>
+<testcase classname="Tests.Gocd-Api" name="Revoke All Created Token" time="0.273">
+</testcase>
+<testcase classname="Tests.Gocd-Api" name="Get Pipeline Instance" time="0.452">
+</testcase>
+<testcase classname="Tests.Gocd-Api" name="Get Pipeline Status" time="0.171">
+</testcase>
+<testcase classname="Tests.Gocd-Api" name="Write A RobotFramework Comment" time="0.394">
+</testcase>
+<testcase classname="Tests.Gocd-Api" name="Schedule A Pipeline" time="0.173">
+</testcase>
+</testsuite>
+</testsuite>
