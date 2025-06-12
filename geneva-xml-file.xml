@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <testsuite name="DatabaseTests" tests="2" time="6.0">
-      <testsuite name="UserRepository" tests="1" time="3.0">
-        <testcase name="should save user to database" time="3.0"/>
-      </testsuite>
-      <testsuite name="ProductRepository" tests="1" time="3.0">
-        <testcase name="should save product to database" time="3.0"/>
+    <testsuite name="ApiTests" tests="4" errors="0" failures="0" skipped="0" time="5.2">
+      <testcase classname="ApiTests" name="should authenticate user" time="1.1"/>
+      <testcase classname="ApiTests" name="should validate token" time="0.9"/>
+      <testsuite name="ProductService" tests="2" errors="0" failures="0" skipped="0" time="3.2">
+        <testcase classname="ApiTests.ProductService" name="should list products" time="1.5"/>
+        <testcase classname="ApiTests.ProductService" name="should filter products" time="1.7"/>
       </testsuite>
     </testsuite>
